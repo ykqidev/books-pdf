@@ -1,0 +1,82 @@
+<mxfile host="Electron" modified="2025-01-25T04:15:27.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="ZJuHIu835QRIuOOV5_Or" version="21.6.8" type="device">
+  <diagram name="第 1 页" id="UAUHnjY5uYkqPrMpcB7g">
+    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-1" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;DW五层模型架构介绍&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="670" y="120" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-3" value="数据来源及建模方式" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="480" y="180" width="220" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-4" value="数据来自DW层，采用维度建模，星型架构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#10739e;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="221" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-7" value="服务领域" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="720" y="180" width="220" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-8" value="数据ETL过程描述" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="960" y="180" width="220" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-9" value="前端报表展示，主题分析，KPI报表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#10739e;align=left;verticalAlign=middle;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="221" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-10" value="从DW层的数据进行粗粒度聚合汇总：如按年、月、季、天对一些维度进行聚合生成业务需要的事实数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#10739e;dashed=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="970" y="221" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-16" value="数据来自DW层，采用维度建模，星型架构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b46504;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-17" value="数据挖掘，自定义查询，应用集市" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-19" value="从DW层的数据进行粗粒度聚合汇总：按业务需求对事实进行拉宽形成宽表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-21" value="数据来自DWD层，是DW事实层，采用维度建模，星型架构，这一层可细分为dwb和 dws" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-25" value="为EDW提供各种统计汇总数据" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-26" value="从DWD层进行轻度清洗，转换，汇总聚合生成DW层数据，如字符合并，EMAIL，证件号，日期，手机号码转换，合并，用代理键取代维度；按各个维度进行聚合汇总" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-32" value="ST层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;align=center;strokeColor=#10739e;fontSize=18;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="221" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-33" value="数据来自ODS层，是DW明细事实层，数据模型和ODS一致" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#56517e;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-34" value="数据准备区，数据来源是各业务系统的源数据，物理模型和业务系统模型一致" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#36393d;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="620" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-35" value="为EDW提供各主题业务明细数据" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-36" value="为其它逻辑层提供数据，为统一数据视图子系统提供数据实时查询" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="620" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-37" value="根据ODS增量数据进行merge生成全量数据，不做清洗转换，保留原始全量数据" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-38" value="通过支付宝分发中心平台，把业务数据抽取落地成文本文件，再装载到数据仓库ODS层，不做清洗转换" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="620" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-41" value="DM层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;align=center;strokeColor=#36393d;fontSize=18;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-42" value="DW层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;align=center;strokeColor=#36393d;fontSize=18;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-43" value="DWD层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;align=center;strokeColor=#56517e;fontSize=18;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76BTwujpx_rj-Tjp0o-u-44" value="ODS层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;align=center;strokeColor=#36393d;fontSize=18;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

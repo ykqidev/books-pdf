@@ -1,0 +1,165 @@
+<mxfile host="Electron" modified="2025-02-24T06:47:47.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="CqFwgHTnhnES4E04sTDq" version="21.6.8" type="device">
+  <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
+    <mxGraphModel dx="6918" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S93yo1KSW0s5MN9tCEz_-1" target="S93yo1KSW0s5MN9tCEz_-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S93yo1KSW0s5MN9tCEz_-1" target="S93yo1KSW0s5MN9tCEz_-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-1" value="API接口拉取数据" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="-5099" y="50" width="159" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S93yo1KSW0s5MN9tCEz_-2" target="S93yo1KSW0s5MN9tCEz_-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-2" value="爬虫获取数据" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="-4660" y="50" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S93yo1KSW0s5MN9tCEz_-3" target="S93yo1KSW0s5MN9tCEz_-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-44" value="同步原始数据到erp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="S93yo1KSW0s5MN9tCEz_-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.1538" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-3" value="amazon.table1（原始数据）" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-5260" y="170" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="S93yo1KSW0s5MN9tCEz_-3" source="S93yo1KSW0s5MN9tCEz_-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-43" value="直接从原始库表清洗或加工数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="S93yo1KSW0s5MN9tCEz_-42" vertex="1" connectable="0">
+          <mxGeometry x="0.3176" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-4" value="涉及的字段：field_1..." style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="S93yo1KSW0s5MN9tCEz_-3" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="S93yo1KSW0s5MN9tCEz_-6" target="S93yo1KSW0s5MN9tCEz_-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5160" y="508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-60" value="清洗或加工数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="S93yo1KSW0s5MN9tCEz_-59" vertex="1" connectable="0">
+          <mxGeometry x="-0.1572" y="-3" relative="1" as="geometry">
+            <mxPoint x="5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-6" value="dawnwin_erp.amazon_table1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-5260" y="300" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-7" value="涉及的字段：field_1..." style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="S93yo1KSW0s5MN9tCEz_-6" vertex="1">
+          <mxGeometry y="26" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S93yo1KSW0s5MN9tCEz_-9" target="S93yo1KSW0s5MN9tCEz_-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-51" value="汇总指标数据（可能有多个层级）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="S93yo1KSW0s5MN9tCEz_-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.3235" y="3" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-9" value="dawnwin_erp.dwm_table1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d0cee2;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#56517e;" parent="1" vertex="1">
+          <mxGeometry x="-4840" y="460" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-10" value="&lt;div&gt;涉及的字段：field_1...&lt;/div&gt;&lt;div&gt;计算逻辑：field_1/field_2&lt;/div&gt;&lt;div&gt;其他...&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="S93yo1KSW0s5MN9tCEz_-9" vertex="1">
+          <mxGeometry y="26" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S93yo1KSW0s5MN9tCEz_-11" target="S93yo1KSW0s5MN9tCEz_-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-54" value="可能还有其他逻辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="S93yo1KSW0s5MN9tCEz_-53" vertex="1" connectable="0">
+          <mxGeometry y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-11" value="dawnwin_erp.bi_table1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fad7ac;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#b46504;" parent="1" vertex="1">
+          <mxGeometry x="-4840" y="598" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-12" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;涉及的字段：field_1...&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;计算逻辑：field_1/field_2&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;其他...&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="S93yo1KSW0s5MN9tCEz_-11" vertex="1">
+          <mxGeometry y="26" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S93yo1KSW0s5MN9tCEz_-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4600" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-47" value="同步原始数据到erp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="S93yo1KSW0s5MN9tCEz_-32" vertex="1" connectable="0">
+          <mxGeometry x="0.0579" y="3" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-13" value="other.table1（原始数据）" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-4700" y="170" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-14" value="涉及的字段：field_1..." style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="S93yo1KSW0s5MN9tCEz_-13" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S93yo1KSW0s5MN9tCEz_-15" target="S93yo1KSW0s5MN9tCEz_-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-46" value="同步原始数据到erp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="S93yo1KSW0s5MN9tCEz_-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.2821" y="2" relative="1" as="geometry">
+            <mxPoint y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-15" value="amazon.table2（原始数据）" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-4980" y="170" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-16" value="涉及的字段：field_1..." style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="S93yo1KSW0s5MN9tCEz_-15" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S93yo1KSW0s5MN9tCEz_-17" target="S93yo1KSW0s5MN9tCEz_-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-17" value="dawnwin_erp.amazon_table2" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-4980" y="300" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-18" value="涉及的字段：field_1..." style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="S93yo1KSW0s5MN9tCEz_-17" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S93yo1KSW0s5MN9tCEz_-19" target="S93yo1KSW0s5MN9tCEz_-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-49" value="清洗或加工数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="S93yo1KSW0s5MN9tCEz_-37" vertex="1" connectable="0">
+          <mxGeometry x="0.7097" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-19" value="dawnwin_erp.other_table1" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-4700" y="300" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-20" value="涉及的字段：field_1..." style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="S93yo1KSW0s5MN9tCEz_-19" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-22" value="A指标输出（报表展示）" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="-4815" y="728" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="S93yo1KSW0s5MN9tCEz_-23" target="S93yo1KSW0s5MN9tCEz_-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-56" value="清洗或加工数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="S93yo1KSW0s5MN9tCEz_-55" vertex="1" connectable="0">
+          <mxGeometry x="0.4937" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-23" value="dawnwin_erp.erp_table1（原始数据）" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-4420" y="170" width="260" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S93yo1KSW0s5MN9tCEz_-24" value="涉及的字段：field_1..." style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" parent="S93yo1KSW0s5MN9tCEz_-23" vertex="1">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

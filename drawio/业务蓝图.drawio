@@ -1,0 +1,100 @@
+<mxfile host="Electron" modified="2023-08-24T02:07:43.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="g4MnokBB71f2jXP2ycw_" version="21.6.8" type="device">
+  <diagram name="第 1 页" id="WaIPmQLFG0dMZLf3pk76">
+    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-1" value="数据平台 -- 规划远景图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="660" y="100" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-2" value="BI工具" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="350" y="240" width="860" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-6" value="营销域指标" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="480" y="180" width="220" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-8" value="销售" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-9" value="费用" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-10" value="利润" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-11" value="供应链域指标" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="720" y="180" width="220" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-12" value="财务域指标" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="960" y="180" width="220" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-13" value="采购" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-14" value="收入" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-15" value="支出" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-16" value="报销" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-17" value="物流" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-18" value="管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-3" value="数据治理" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="350" y="320" width="860" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-19" value="数据质量" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="335" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-20" value="数据资产" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="335" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-21" value="数据安全" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="335" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-22" value="数据治理中心" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="335" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-23" value="数据规范与开发" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="350" y="400" width="860" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-24" value="数据采集" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="415" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-25" value="数据建模" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="415" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-26" value="数仓规划" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="415" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-27" value="数据指标" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="415" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-28" value="任务调度" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="930" y="415" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-29" value="运维和监控" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="415" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-30" value="计算存储引擎" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fontSize=14;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="350" y="480" width="860" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-31" value="阿里自研大数据计算服务（MaxCompute）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="495" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-33" value="本期" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qo1xn17Vdfr8KwHUQ_R2-34" value="规划" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="140" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2025-01-25T03:02:30.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="EKuf4FN35CfzE9TOTRe9" version="21.6.8" type="device">
+  <diagram name="第 1 页" id="gMMrKiUO8MCmAVjW6DFG">
+    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ctNy-JADYYffZNzwEFvu-2" value="" style="shape=card;whiteSpace=wrap;html=1;direction=south;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="700" width="650" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;点击流数据&lt;br&gt;（Click stream）&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="720" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;元数据管理&lt;br&gt;&lt;br&gt;&lt;br&gt;数据质量监控&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="320" width="30" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-16" value="" style="shape=card;whiteSpace=wrap;html=1;direction=south;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="650" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-29" value="" style="shape=card;whiteSpace=wrap;html=1;direction=south;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="321" width="650" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-30" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;KPI&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="336" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-53" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;源数据&lt;/font&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="290" y="700" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-54" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;数据数仓&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="460" width="30" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-55" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;数据&lt;br style=&quot;font-size: 16px;&quot;&gt;应用&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-64" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;数据应用（ST）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5fc;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="325" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-81" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;数据库数据&lt;br&gt;（OLTP）&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="540" y="720" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-82" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;文档数据&lt;br&gt;（Documents）&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="690" y="720" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-83" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;其他数据&lt;br&gt;（Other）&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="840" y="720" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-86" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;高粒度汇总数据（DWS）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5fc;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="680" y="580" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-87" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;低粒度汇总加工数据（DWB）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5fc;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="580" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-88" value="明细数据（DWD）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5fc;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="404" y="632" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-89" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;数据集市、宽表（DM）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5fc;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="474" y="530" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-91" value="报表展示" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="386" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-92" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;账单应用&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="336" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-93" value="日志产品应用" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="336" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-94" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;其他...&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="820" y="336" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-95" value="自定义查询" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="385" width="120" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-96" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;数据分析&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="386" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-97" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;数据挖掘&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="820" y="386" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctNy-JADYYffZNzwEFvu-106" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;E&lt;br&gt;T&lt;br&gt;L&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="357" y="480" width="20" height="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
